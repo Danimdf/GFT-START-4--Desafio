@@ -4,7 +4,6 @@ public class ContaCorrente extends Conta{
     private int rendendo;
 
     public ContaCorrente(int valor) {
-        super();
         this.rendendo = valor;
     }
 

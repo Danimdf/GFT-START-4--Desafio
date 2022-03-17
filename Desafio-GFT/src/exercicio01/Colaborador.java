@@ -1,6 +1,6 @@
 package exercicio01;
 
-public abstract class Colaborador {
+public class Colaborador {
     protected String nome;
     protected int idade;
     public float salario;

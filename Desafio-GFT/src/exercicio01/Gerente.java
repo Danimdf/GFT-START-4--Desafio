@@ -5,6 +5,8 @@ public class Gerente extends Colaborador{
 
     public Gerente(float salario, int grauInstrucao) {
         super(salario, grauInstrucao);
+        this.salario = salario;
+        this.grauInstrucao = grauInstrucao;
     }
 
     @Override
@@ -13,7 +15,7 @@ public class Gerente extends Colaborador{
         float intFloat = grauInstrucao;
         float valorTotal;
 
-        valorTotal = salario + ((valorAbono * intFloat) * 2);
+        valorTotal = this.salario + ((valorAbono * intFloat) * 2);
         return valorTotal;
     }
 }
